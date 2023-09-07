@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371558538356",
+    "project_id": "wheel-of-gold-7fb56",
+    "storage_bucket": "wheel-of-gold-7fb56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371558538356:android:0bc7a0a21f6c0069bbc521",
+        "android_client_info": {
+          "package_name": "com.spingold.spinofgold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371558538356-f09b8ujekd510uhum3idffk69m32s10o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4r6yAsRGR6lmz_pBSYT8eb8zffaNJZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371558538356-f09b8ujekd510uhum3idffk69m32s10o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,30 +1,45 @@
 {
   "expo": {
-    "name": "india-app",
+    "name": "Spin win 7",
     "slug": "india-app",
-    "version": "1.0.0",
+    "version": "1.1.9",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
+    "permissions": [
+      "INTERNET",
+      "VIBRATE",
+      "RECEIVE_BOOT_COMPLETED",
+      "NOTIFICATIONS"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff",
+        "name": "MeuApp"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      },
+      "package": "com.spingold.spinofgold",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 11
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7f4cb7c4-ec7a-46aa-8ac6-3671e975ab30"
+      }
     }
   }
 }
